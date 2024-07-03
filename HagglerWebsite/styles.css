@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('deco.jpg') repeat;
+}
+
+.main-header {
+    background-color: #f6f9fc;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007BA7;
+}
+
+.btn-secondary {
+    background-color: #8A3324;
+}
+
+.header-content {
+    margin-top: 50px;
+}
+
+.header-content h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.header-content p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.features-section, .pricing-section, .contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features-section h2, .pricing-section h2, .contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-plan {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.pricing-plan h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-plan p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.pricing-plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-plan ul li {
+    margin-bottom: 10px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-section form input, .contact-section form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
